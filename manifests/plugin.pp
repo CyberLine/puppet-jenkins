@@ -59,7 +59,7 @@ define jenkins::plugin (
   Boolean $enabled                  = true,
   String $digest_type               = 'sha1',
   Boolean $pin                      = false,
-  Array $download_options           = ['--http1.1'],
+#  Array $download_options           = ['--http1.1'],
 ) {
   include jenkins
 
